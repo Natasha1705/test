@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+.section{
+    
+    display: flex;
+    align-content: center;
+    justify-content: start;
+    margin-top: 300px;
+    justify-content: space-between;
+}
+
+:root {
+--500: #ff7757;
+}
+:root {
+    --font-family: "Rubik", sans-serif;
+    --second-family: "Playfair Display", sans-serif;
+    --third-family: "Mulish", sans-serif;
+    }
+
+    h2{
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 64px;
+color: #172432;
+
+    }
+
+    p{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+color: #767e86;
+    }
+
+    button{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+color: #fff;
+border-radius: 12px;
+padding: 20px;
+width: 186px;
+height: 61px;
+background: var(--500);
+    }
+
+    .picture{
+        width: 1244;
+        height: 545;
+        border: 1px solid #7397be;
+        display: flex;
+        justify-content: space-between;
+        align-content: end;
+        gap: 32px;
+    }
+
+    .picture__pic{
+        display: flex;
+        width: 300;
+        height: 399;
+    }
+
+    .picture__pic__pic{
+        position: relative;
+        top: -73px;
+    }
+
+    .picture__title{
+        flex-direction: column;
+    }
+.title__text__pic{
+    position: relative;
+}
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="title">
+            <h2 class="title__h2">Trip Planners</h2>
+            <p class="title__text" >20 years from now you will be more <br> disappointed by the things that you didn’t do. <br>
+            Stop regretting and start <br> travelling, start throwing off the bowlines.</p>
+            <button class="title__button">View all trip plans</button>
+        </div>
+
+        <div class="picture">
+            <img class="picture__pic" src="./image/1.png" alt="">
+            <div class="picture__title">
+                <img class="picture__pic__pic" src="./image/2.png" alt="">
+                <p class="title__text__pic" >Guided Tour &nbsp; €99/Day</p>
+                <h3 class="title__h3__pic">Paris City Tour</h3>
+                <img src="./image/rating.png" width="136" height="24" p class="title_text__pic">7 Days tour</p> 
+            </div>
+            <img class="picture__pic" src="./image/3.png" alt="">
+            <img class="picture__pic" src="./image/4.png" alt="">
+        </div>
+    </section>
+</body>
+</html>
